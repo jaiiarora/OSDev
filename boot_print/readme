@@ -1,0 +1,5 @@
+Now, we will make the bootsector  write something to the screen. Like a simple Hello message.
+Write  "Hello" into al register.
+Write 0x0e into ah.
+Interrupt vector 10h is for BIOSvideo  access.
+0x0e is for writing character in tty mode.
